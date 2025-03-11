@@ -1,7 +1,7 @@
 const EXPRESS = require("express");
 const MOVIE_ROUTES = require("./src/routes/movie.js");
 const APP = EXPRESS();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 APP.use('/movie', MOVIE_ROUTES);
 
