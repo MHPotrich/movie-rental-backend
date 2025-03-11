@@ -1,0 +1,23 @@
+{
+  "name": "movie-rental-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	  "start": "node index.js",
+	  "dev": "node --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MHPotrich/movie-rental-backend.git"
+  },
+  "author": "Matheus H. Potrich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MHPotrich/movie-rental-backend/issues"
+  },
+  "homepage": "https://github.com/MHPotrich/movie-rental-backend#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
